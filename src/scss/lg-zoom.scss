@@ -84,8 +84,8 @@
             content: '\e311';
         }
         .lg-actual-size & {
-            opacity: 0.5;
-            pointer-events: none;
+            opacity: 1;
+            pointer-events: auto;
         }
     }
 
@@ -122,3 +122,9 @@
         }
     }
 }
+
+
+// .lg-actual-size .lg-icon.lg-zoom-in {
+//     opacity: 0.5;
+//     pointer-events: none;
+//   }
